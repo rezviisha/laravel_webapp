@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get('test', function () {
+//     return "working";
+// });
+
+
+
+Route::post('login','LoginController@processLogin');
+Route::post('signup','RegisterController@signup');
