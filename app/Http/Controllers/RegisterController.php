@@ -12,7 +12,8 @@ class RegisterController extends Controller
 {
 
 
-	public function signup(Request $request){
+	public function signup(Request $request)
+	{
 
 		//add validation rule here
 
