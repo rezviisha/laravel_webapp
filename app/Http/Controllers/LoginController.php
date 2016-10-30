@@ -40,6 +40,7 @@ class LoginController extends Controller
 
 			//move to dashboard
 			echo "Logged in";
+			//sdad
 
 
 
